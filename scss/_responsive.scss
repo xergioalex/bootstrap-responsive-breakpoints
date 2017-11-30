@@ -1,9 +1,10 @@
 /*
  * MEDIA QUERYS
  *
- * Tiny grid  devices Phones  (<=400px) = .col-*
- * Extra small grid  devices Phones  (<=576px) = .col-*
- * Small grid  devices Phones  (<=768px) = .col-sm-*
+ * Extra tiny grid  devices Phones  (<350px) = .col-*
+ * Tiny grid  devices Phones  (<400px) = .col-*
+ * Extra small grid  devices Phones  (<576px) = .col-*
+ * Small grid  devices Phones  (<768px) = .col-sm-*
  * Regular grid devices Tablets (≥768px) = .col-md-*
  * Medium grid devices Desktops  (≥992px) = .col-lg-*
  * Large grid devices Desktops  (≥1200px) = .col-xl-*
@@ -68,5 +69,10 @@
 
 // Breakpoint: x <= 399
 @media (max-width: map_get($screen,_xs-max)) {
+
+}
+
+// Breakpoint: x <= 349
+@media (max-width: map_get($screen,_xxs-max)) {
 
 }
