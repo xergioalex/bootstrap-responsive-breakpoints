@@ -2,7 +2,7 @@
  * MEDIA QUERYS
  *
  * Extra tiny grid  devices Phones  (<350px) = .col-*
- * Tiny grid  devices Phones  (<400px) = .col-*
+ * Tiny grid  devices Phones  (<450px) = .col-*
  * Extra small grid  devices Phones  (<576px) = .col-*
  * Small grid  devices Phones  (<768px) = .col-sm-*
  * Regular grid devices Tablets (≥768px) = .col-md-*
@@ -67,7 +67,7 @@
 
 }
 
-// Breakpoint: x <= 399
+// Breakpoint: x <= 449
 @media (max-width: map_get($screen,_xs-max)) {
 
 }
