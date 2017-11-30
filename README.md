@@ -6,8 +6,8 @@ Just a tiny configuration for boostrap responsive breakpoints in sass
 
 ```
 $screen:(
-    _xl: 1400px,
-    _xl-max: 1399px,
+    _xxl: 1400px,
+    _xxl-max: 1399px,
     _xl: 1200px, // $screen-xl
     _xl-max: 1199px, // $screen-xl-max
     _lg: 992px, // $screen-lg
@@ -16,8 +16,10 @@ $screen:(
     _md-max: 767px, // $screen-md-max
     _sm: 576px, // $screen-sm
     _sm-max: 575px, // $screen-sm-max
-    _xs: 400px, // $screen-xs
-    _xs-max: 399px, // $screen-xs-max
+    _xs: 450px, // $screen-xs
+    _xs-max: 449px, // $screen-xs-max
+    _xxs: 350px, // $screen-xs-max
+    _xxs-max: 349px, // $screen-xs-max
 );
 
 /*
